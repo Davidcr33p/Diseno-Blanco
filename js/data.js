@@ -21,17 +21,17 @@ const SITE_DATA = {
       "Estudio de arquitectura enfocado en proyectos residenciales, comerciales e interiorismo, con una mirada clara y atemporal.",
     heroImage: "assets/images/hero-fachada.jpg",
     aboutEyebrow: "El estudio",
-    aboutTitle: "Arquitectura pensada desde el detalle hasta el conjunto.",
+    aboutTitle: "Nosotros",
     aboutText:
-      "Somos un equipo de arquitectos e interioristas que acompaña cada proyecto desde el primer boceto hasta la entrega final. Creemos en espacios sobrios, funcionales y construidos para durar, adaptados al clima, al uso y a quienes los habitan. TODO: reemplazar con la descripción real del estudio que envíe el cliente.",
+      "Somos un despacho de arquitectos con más de 10 años de experiencia, especializados en diseño de interiores, planificación, construcción y proyectos arquitectónicos. Nuestra misión es crear espacios armoniosos y a medida, adaptados a las necesidades y estilo de vida de cada cliente. Ofrecemos una asesoría integral, abarcando desde la distribución, acabados y mobiliario, hasta planes de ampliación, obra civil y proyectos ejecutivos. Nos comprometemos a ofrecer soluciones a la medida, con un enfoque innovador y un alto estándar de calidad.",
     aboutImage: "assets/images/about-estudio.jpg",
   },
 
   stats: [
-    { value: "15+", label: "años de trayectoria" },
+    { value: "10+", label: "años de trayectoria" },
     { value: "120+", label: "proyectos entregados" },
-    { value: "8", label: "ciudades" },
-    { value: "40+", label: "premios y menciones" },
+    { value: "2", label: "sucursales físicas" },
+    { value: "40+", label: "ciudades con proyectos realizados" },
   ],
 
   services: [
