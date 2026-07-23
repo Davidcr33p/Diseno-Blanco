@@ -56,8 +56,6 @@
 
   function renderHero() {
     const c = SITE_DATA.company;
-    document.getElementById("hero-title").textContent = c.tagline;
-    document.getElementById("hero-subtext").textContent = c.heroSubtext;
     const img = document.getElementById("hero-image");
     img.src = resolveAsset(c.heroImage);
     img.alt = `Fotografia de un proyecto de ${c.name}`;
