@@ -38,12 +38,12 @@ const SITE_DATA = {
     {
       title: "Arquitectura residencial",
       description:
-        "Casas y desarrollos habitacionales diseñados a la medida del terreno y de quienes los habitan.",
+        "Diseño y construcción de casas y desarrollos habitacionales, acompañando el proyecto desde el concepto hasta la obra terminada.",
     },
     {
       title: "Arquitectura comercial",
       description:
-        "Oficinas, retail y espacios de trabajo pensados para la marca y el flujo de las personas.",
+        "Diseño y construcción de oficinas, retail y espacios de trabajo, pensados para la marca y el flujo de las personas.",
     },
     {
       title: "Interiorismo",
@@ -51,9 +51,9 @@ const SITE_DATA = {
         "Definición de materiales, mobiliario e iluminación para dar continuidad al proyecto arquitectónico.",
     },
     {
-      title: "Planeación urbana",
+      title: "Asesoría de Diseño Interior",
       description:
-        "Masterplans y desarrollos de mayor escala, con foco en movilidad y espacio público.",
+        "Visita, propuesta de distribución y seguimiento para transformar un espacio existente sin necesidad de una obra completa.",
     },
   ],
 

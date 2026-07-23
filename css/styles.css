@@ -32,6 +32,13 @@
   font-display: swap;
   src: url("../assets/fonts/BrandonGrotesque-Light.otf") format("opentype");
 }
+@font-face {
+  font-family: "Brandon Grotesque Bold";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/BrandonGrotesque-Bold.otf") format("opentype");
+}
 
 /* ---------- Reset ---------- */
 *, *::before, *::after { box-sizing: border-box; }
@@ -416,8 +423,19 @@ p { color: var(--ink-soft); max-width: 65ch; }
   font-size: 1rem;
   color: var(--ink-faint);
 }
-.service-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.35rem; }
-.service-description { font-size: 0.95rem; max-width: 52ch; }
+.service-title {
+  font-family: "Brandon Grotesque Black", var(--font-display);
+  font-weight: 900;
+  font-size: 1.1rem;
+  margin-bottom: 0.35rem;
+}
+.service-description {
+  font-family: "Brandon Grotesque Bold", var(--font-body);
+  font-weight: 700;
+  font-style: italic;
+  font-size: 0.95rem;
+  max-width: 52ch;
+}
 
 @media (min-width: 700px) {
   .service-item { grid-template-columns: 4.5rem 1fr; align-items: baseline; }
