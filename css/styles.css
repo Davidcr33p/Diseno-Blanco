@@ -171,11 +171,11 @@ p { color: var(--ink-soft); max-width: 65ch; }
 .brand-badge {
   display: grid;
   place-items: center;
-  width: 28px;
-  height: 28px;
+  width: 34px;
+  height: 34px;
   background: #000;
   border: 1px solid var(--line-strong);
-  padding: 5px;
+  padding: 6px;
   box-sizing: border-box;
   flex-shrink: 0;
 }
