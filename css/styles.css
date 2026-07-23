@@ -254,6 +254,13 @@ p { color: var(--ink-soft); max-width: 65ch; }
   .site-nav { display: none; }
   .header-templates-link { display: none; }
   .nav-toggle { display: grid; }
+  .brand-badge img { height: 20px; }
+  .brand-logo { height: 20px; }
+  .brand { gap: 0.5rem; }
+}
+@media (max-width: 360px) {
+  .brand-badge img { height: 17px; }
+  .brand-logo { height: 17px; }
 }
 @media (min-width: 768px) {
   .mobile-menu { display: none; }
