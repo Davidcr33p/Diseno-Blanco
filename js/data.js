@@ -12,10 +12,10 @@
 const SITE_DATA = {
 
   company: {
-    name: "Contorno Arquitectura",
-    shortName: "Contorno",
+    name: "Diseño Blanco",
+    shortName: "Diseño Blanco",
     // Iniciales para el isotipo del header/footer
-    monogram: "CA",
+    monogram: "DB",
     tagline: "Diseñamos espacios que perduran.",
     heroSubtext:
       "Estudio de arquitectura enfocado en proyectos residenciales, comerciales e interiorismo, con una mirada clara y atemporal.",
@@ -152,9 +152,9 @@ const SITE_DATA = {
     // TODO: reemplazar todos los valores de esta sección con los datos reales del cliente
     phoneDisplay: "+52 55 0000 0000",
     phoneHref: "+525500000000",
-    email: "contacto@contornoarquitectura.com",
-    instagramHandle: "@contorno.arquitectura",
-    instagramUrl: "https://instagram.com/contorno.arquitectura",
+    email: "contacto@disenoblanco.com",
+    instagramHandle: "@diseno.blanco",
+    instagramUrl: "https://instagram.com/diseno.blanco",
     address: "Ciudad de México, México",
     ctaText:
       "¿Tienes un proyecto en mente? Escríbenos y cuéntanos en qué estás pensando.",
@@ -167,6 +167,6 @@ const SITE_DATA = {
   ],
 
   footer: {
-    copyrightName: "Contorno Arquitectura",
+    copyrightName: "Diseño Blanco",
   },
 };

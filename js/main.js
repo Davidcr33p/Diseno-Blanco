@@ -1,5 +1,5 @@
 /* ============================================================
- * Contorno Arquitectura - logica del sitio
+ * Diseño Blanco - logica del sitio
  * Todo el contenido se lee de SITE_DATA (js/data.js).
  * ============================================================ */
 
