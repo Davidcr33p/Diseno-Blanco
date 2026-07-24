@@ -360,6 +360,10 @@ p { color: var(--ink-soft); max-width: 65ch; }
   align-items: center;
 }
 .about-copy { max-width: 58ch; }
+#about-eyebrow {
+  font-family: "Brandon Grotesque Regular", var(--font-mono);
+  font-weight: 400;
+}
 #about-title {
   font-family: "Brandon Grotesque Black", var(--font-display);
   font-weight: 900;
@@ -397,11 +401,17 @@ p { color: var(--ink-soft); max-width: 65ch; }
 .stat:nth-child(1) { padding-left: 0; }
 .stat-value {
   display: block;
-  font-family: var(--font-mono);
+  font-family: "Brandon Grotesque Black", var(--font-mono);
+  font-weight: 900;
   font-size: clamp(1.7rem, 2.8vw, 2.5rem);
-  font-weight: 500;
 }
-.stat-label { color: var(--ink-soft); font-size: 0.88rem; }
+.stat-label {
+  font-family: "Brandon Grotesque Bold", var(--font-body);
+  font-weight: 700;
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+}
 
 @media (min-width: 700px) {
   .stat { flex: 1 1 0; border-top: none; border-left: 1px solid var(--line); padding-top: 0; }
