@@ -67,6 +67,10 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   --inverse-text-soft: #9aa3ab;
   --inverse-line: #24292e;
 
+  /* Color primario real de marca (Manual de Identidad_DB.pdf) */
+  --accent: #234234;
+  --accent-line: rgba(255, 255, 255, 0.16);
+
   --font-display: "Archivo", ui-sans-serif, system-ui, sans-serif;
   --font-body: "Archivo", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
@@ -543,7 +547,7 @@ p { color: var(--ink-soft); max-width: 65ch; }
 /* ============================================================
    CONTACT + FOOTER
    ============================================================ */
-.contact-band { background: var(--inverse-bg); color: var(--inverse-text); border-top: 1px solid var(--line); }
+.contact-band { background: var(--accent); color: var(--inverse-text); border-top: 1px solid var(--accent-line); }
 .contact-inner {
   max-width: var(--container-max);
   margin-inline: auto;
@@ -552,32 +556,42 @@ p { color: var(--ink-soft); max-width: 65ch; }
   grid-template-columns: 1fr;
   gap: clamp(2.5rem, 6vw, 4rem);
 }
-.contact-copy h2 { color: var(--inverse-text); font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 1rem; }
-.contact-copy p { color: var(--inverse-text-soft); max-width: 42ch; }
+.contact-copy h2 {
+  font-family: "Brandon Grotesque Black", var(--font-display);
+  font-weight: 900;
+  color: var(--inverse-text);
+  font-size: clamp(2.5rem, 5vw, 4.25rem);
+  margin-bottom: 1rem;
+}
+.contact-copy p { color: var(--inverse-text); opacity: 0.85; max-width: 42ch; font-size: 1.05rem; }
 
-.contact-list { display: flex; flex-direction: column; gap: 1.35rem; }
-.contact-list li { display: flex; align-items: center; gap: 1rem; }
+.contact-list { display: flex; flex-direction: column; gap: 1.5rem; }
+.contact-list li { display: flex; align-items: center; gap: 1.1rem; }
 .contact-list a,
-.contact-list span.static { font-size: 0.98rem; font-family: var(--font-mono); font-weight: 500; }
+.contact-list span.static {
+  font-size: 1.2rem;
+  font-family: "Brandon Grotesque Black", var(--font-display);
+  font-weight: 900;
+}
 .contact-list a { border-bottom: 1px solid transparent; transition: border-color 0.2s ease, opacity 0.2s ease; }
 .contact-list a:hover { border-bottom-color: var(--inverse-text); }
 .contact-icon {
-  width: 40px;
-  height: 40px;
+  width: 46px;
+  height: 46px;
   flex-shrink: 0;
   display: grid;
   place-items: center;
   border-radius: 0;
-  border: 1px solid var(--inverse-line);
-  color: var(--inverse-text);
+  background: var(--inverse-text);
+  color: var(--accent);
 }
-.contact-icon .icon { width: 1.05rem; height: 1.05rem; }
+.contact-icon .icon { width: 1.2rem; height: 1.2rem; }
 
 @media (min-width: 900px) {
   .contact-inner { grid-template-columns: 1fr 1fr; }
 }
 
-.site-footer { border-top: 1px solid var(--inverse-line); }
+.site-footer { border-top: 1px solid var(--accent-line); }
 .footer-inner {
   max-width: var(--container-max);
   margin-inline: auto;
@@ -585,7 +599,8 @@ p { color: var(--ink-soft); max-width: 65ch; }
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  color: var(--inverse-text-soft);
+  color: var(--inverse-text);
+  opacity: 0.75;
   font-family: var(--font-mono);
   font-size: 0.82rem;
 }

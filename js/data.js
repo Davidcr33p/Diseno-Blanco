@@ -149,13 +149,12 @@ const SITE_DATA = {
   },
 
   contact: {
-    // TODO: reemplazar todos los valores de esta sección con los datos reales del cliente
-    phoneDisplay: "+52 55 0000 0000",
-    phoneHref: "+525500000000",
-    email: "contacto@disenoblanco.com",
-    instagramHandle: "@diseno.blanco",
-    instagramUrl: "https://instagram.com/diseno.blanco",
-    address: "Ciudad de México, México",
+    phoneDisplay: "81 2909 2505",
+    phoneHref: "+528129092505",
+    email: "fac.dblancomx@gmail.com",
+    instagramHandle: "@dblancomx",
+    instagramUrl: "https://instagram.com/dblancomx",
+    address: "San Jerónimo, Monterrey, Nuevo León",
     ctaText:
       "¿Tienes un proyecto en mente? Escríbenos y cuéntanos en qué estás pensando.",
   },
