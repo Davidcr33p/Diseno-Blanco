@@ -39,6 +39,13 @@
   font-display: swap;
   src: url("../assets/fonts/BrandonGrotesque-Bold.otf") format("opentype");
 }
+@font-face {
+  font-family: "MBF Alienator";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/MBFAlienator.ttf") format("truetype");
+}
 
 /* ---------- Reset ---------- */
 *, *::before, *::after { box-sizing: border-box; }
@@ -427,8 +434,8 @@ p { color: var(--ink-soft); max-width: 65ch; }
   border-bottom: 1px solid var(--line);
 }
 .service-index {
-  font-family: var(--font-mono);
-  font-size: 1rem;
+  font-family: "MBF Alienator", var(--font-mono);
+  font-size: 1.4rem;
   color: var(--ink-faint);
 }
 .service-title {
