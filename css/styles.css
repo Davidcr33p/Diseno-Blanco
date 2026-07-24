@@ -67,9 +67,11 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   --inverse-text-soft: #9aa3ab;
   --inverse-line: #24292e;
 
-  /* Color primario real de marca (Manual de Identidad_DB.pdf) */
-  --accent: #234234;
-  --accent-line: rgba(255, 255, 255, 0.16);
+  /* Paleta real de marca (Manual de Identidad_DB.pdf) - "Ligeros" gris claro */
+  --accent: #cecece;
+  --accent-ink: #0d0f11;
+  --accent-ink-soft: rgba(13, 15, 17, 0.7);
+  --accent-line: rgba(13, 15, 17, 0.18);
 
   --font-display: "Archivo", ui-sans-serif, system-ui, sans-serif;
   --font-body: "Archivo", ui-sans-serif, system-ui, sans-serif;
@@ -547,14 +549,14 @@ p { color: var(--ink-soft); max-width: 65ch; }
 /* ============================================================
    CONTACT + FOOTER
    ============================================================ */
-.contact-band { position: relative; overflow: hidden; background: var(--accent); color: var(--inverse-text); border-top: 1px solid var(--accent-line); }
+.contact-band { position: relative; overflow: hidden; background: var(--accent); color: var(--accent-ink); border-top: 1px solid var(--accent-line); }
 .contact-watermark {
   position: absolute;
   top: 50%;
   right: -6%;
   transform: translateY(-50%);
   width: min(48%, 620px);
-  opacity: 0.07;
+  opacity: 0.1;
   pointer-events: none;
   z-index: 0;
 }
@@ -568,15 +570,15 @@ p { color: var(--ink-soft); max-width: 65ch; }
   grid-template-columns: 1fr;
   gap: clamp(2.5rem, 6vw, 4rem);
 }
-.contact-copy .eyebrow { color: rgba(255, 255, 255, 0.7); }
+.contact-copy .eyebrow { color: var(--accent-ink-soft); }
 .contact-copy h2 {
   font-family: "Brandon Grotesque Black", var(--font-display);
   font-weight: 900;
-  color: var(--inverse-text);
+  color: var(--accent-ink);
   font-size: clamp(2.75rem, 6vw, 5rem);
   margin-bottom: 1rem;
 }
-#contact-cta-text { color: var(--inverse-text); opacity: 0.85; max-width: 42ch; font-size: 1.05rem; }
+#contact-cta-text { color: var(--accent-ink); opacity: 0.75; max-width: 42ch; font-size: 1.05rem; }
 
 .contact-list { display: flex; flex-direction: column; gap: 1rem; }
 .contact-list li {
@@ -584,12 +586,12 @@ p { color: var(--ink-soft); max-width: 65ch; }
   align-items: center;
   gap: 1.1rem;
   padding: 0.85rem 1.1rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid var(--accent-line);
   transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
 }
 .contact-list li:hover {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.5);
+  background: rgba(13, 15, 17, 0.06);
+  border-color: var(--accent-ink);
   transform: translateX(6px);
 }
 .contact-list a,
@@ -597,9 +599,10 @@ p { color: var(--ink-soft); max-width: 65ch; }
   font-size: 1.2rem;
   font-family: "Brandon Grotesque Black", var(--font-display);
   font-weight: 900;
+  color: var(--accent-ink);
 }
 .contact-list a { border-bottom: 1px solid transparent; transition: border-color 0.2s ease, opacity 0.2s ease; }
-.contact-list a:hover { border-bottom-color: var(--inverse-text); }
+.contact-list a:hover { border-bottom-color: var(--accent-ink); }
 .contact-icon {
   width: 46px;
   height: 46px;
@@ -607,7 +610,7 @@ p { color: var(--ink-soft); max-width: 65ch; }
   display: grid;
   place-items: center;
   border-radius: 0;
-  background: var(--inverse-text);
+  background: var(--accent-ink);
   color: var(--accent);
 }
 .contact-icon .icon { width: 1.2rem; height: 1.2rem; }
@@ -624,15 +627,15 @@ p { color: var(--ink-soft); max-width: 65ch; }
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  color: var(--inverse-text);
-  opacity: 0.75;
+  color: var(--accent-ink);
+  opacity: 0.7;
   font-family: var(--font-mono);
   font-size: 0.82rem;
 }
 .footer-links { display: flex; flex-direction: column; gap: 0.85rem; }
 .footer-nav ul { display: flex; gap: 1.5rem; }
 .footer-nav a { transition: color 0.2s ease; }
-.footer-nav a:hover { color: var(--inverse-text); }
+.footer-nav a:hover { color: var(--accent-ink); }
 .footer-back-link {
   border-bottom: 1px solid var(--inverse-line);
   padding-bottom: 2px;
