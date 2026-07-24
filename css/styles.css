@@ -570,7 +570,11 @@ p { color: var(--ink-soft); max-width: 65ch; }
   grid-template-columns: 1fr;
   gap: clamp(2.5rem, 6vw, 4rem);
 }
-.contact-copy .eyebrow { color: var(--accent-ink-soft); }
+.contact-copy .eyebrow {
+  font-family: "Brandon Grotesque Regular", var(--font-mono);
+  font-weight: 400;
+  color: var(--accent-ink-soft);
+}
 .contact-copy h2 {
   font-family: "Brandon Grotesque Black", var(--font-display);
   font-weight: 900;
@@ -578,7 +582,15 @@ p { color: var(--ink-soft); max-width: 65ch; }
   font-size: clamp(2.75rem, 6vw, 5rem);
   margin-bottom: 1rem;
 }
-#contact-cta-text { color: var(--accent-ink); opacity: 0.75; max-width: 42ch; font-size: 1.05rem; }
+#contact-cta-text {
+  font-family: "Brandon Grotesque Bold", var(--font-body);
+  font-weight: 700;
+  font-style: italic;
+  color: var(--accent-ink);
+  opacity: 0.75;
+  max-width: 42ch;
+  font-size: 1.05rem;
+}
 
 .contact-list { display: flex; flex-direction: column; gap: 1rem; }
 .contact-list li {
