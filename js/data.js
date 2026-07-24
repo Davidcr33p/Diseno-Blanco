@@ -19,7 +19,7 @@ const SITE_DATA = {
     tagline: "Diseñamos espacios que perduran.",
     heroSubtext:
       "Estudio de arquitectura enfocado en proyectos residenciales, comerciales e interiorismo, con una mirada clara y atemporal.",
-    heroImage: "assets/images/hero-fachada.jpg",
+    heroImage: "assets/images/proyecto-recepcion-corporativa.jpg",
     aboutEyebrow: "El estudio",
     aboutTitle: "Nosotros",
     aboutText:
@@ -145,7 +145,7 @@ const SITE_DATA = {
       "Una casa de un solo nivel organizada alrededor de un patio central de nogales existentes, con muros de tabique aparente y grandes vanos hacia el jardín.",
     location: "Valle de Bravo, México",
     year: 2023,
-    image: "assets/images/featured-casa-nogal.jpg",
+    image: "assets/images/proyecto-lounge-corporativo.jpg",
   },
 
   contact: {
