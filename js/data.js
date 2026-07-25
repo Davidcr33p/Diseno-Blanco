@@ -91,6 +91,24 @@ const SITE_DATA = {
       image: "assets/images/proyecto-crediclub-mesas.jpg",
       size: "wide",
     },
+    {
+      id: 4,
+      title: "Proyecto Residencial",
+      category: "Residencial",
+      location: "Monterrey, México",
+      year: 2024,
+      image: "assets/images/proyecto-lounge-acuario.jpg",
+      size: "",
+    },
+    {
+      id: 5,
+      title: "Proyecto Residencial",
+      category: "Residencial",
+      location: "Monterrey, México",
+      year: 2024,
+      image: "assets/images/proyecto-bar-ambar.jpg",
+      size: "",
+    },
   ],
 
   featuredProject: {
