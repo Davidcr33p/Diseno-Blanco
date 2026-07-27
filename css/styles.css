@@ -220,9 +220,9 @@ p { color: var(--ink-soft); max-width: 65ch; }
 
 .site-nav ul { display: flex; align-items: center; gap: 2.25rem; }
 .site-nav a {
-  font-family: "Brandon Grotesque Bold", var(--font-mono);
-  font-weight: 700;
-  font-style: italic;
+  font-family: "Brandon Grotesque Black", var(--font-mono);
+  font-weight: 900;
+  font-style: normal;
   font-size: 0.85rem;
   padding-block: 0.25rem;
   border-bottom: 1px solid transparent;
@@ -273,7 +273,7 @@ p { color: var(--ink-soft); max-width: 65ch; }
 }
 .mobile-menu.is-open { transform: translateY(0); opacity: 1; visibility: visible; }
 .mobile-menu ul { display: flex; flex-direction: column; gap: 1.1rem; }
-.mobile-menu a { font-family: "Brandon Grotesque Bold", var(--font-display); font-style: italic; font-size: 1.15rem; font-weight: 700; }
+.mobile-menu a { font-family: "Brandon Grotesque Black", var(--font-display); font-style: normal; font-size: 1.15rem; font-weight: 900; }
 .mobile-templates-link {
   display: block;
   margin-top: 1.5rem;
