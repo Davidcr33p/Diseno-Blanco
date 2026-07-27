@@ -223,7 +223,7 @@ p { color: var(--ink-soft); max-width: 65ch; }
   font-family: "Brandon Grotesque Black", var(--font-mono);
   font-weight: 900;
   font-style: normal;
-  font-size: 0.85rem;
+  font-size: 0.98rem;
   padding-block: 0.25rem;
   border-bottom: 1px solid transparent;
   transition: border-color 0.2s ease, color 0.2s ease;
