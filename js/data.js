@@ -59,7 +59,7 @@ const SITE_DATA = {
 
   // Categorías usadas para filtrar la galería. El primer valor
   // siempre se usa como el filtro "ver todos".
-  categories: ["Todos", "Residencial", "Comercial", "Interiorismo", "Urbanismo"],
+  categories: ["Todos", "Residencial", "Comercial", "Interiorismo"],
 
   // "size" controla la proporción de la tarjeta en la grilla:
   // "tall" (vertical), "wide" (horizontal) o "" (cuadrada, por defecto).
