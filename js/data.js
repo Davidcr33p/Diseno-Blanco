@@ -53,7 +53,7 @@ const SITE_DATA = {
     {
       title: "Asesoría de Diseño Interior",
       description:
-        "Visita, propuesta de distribución y seguimiento para transformar un espacio existente sin necesidad de una obra completa.",
+        "Las asesorías de diseño interior se centran en adaptar tu espacio actual para aprovecharlo al máximo, optimizando lo que ya tienes, con recomendaciones claras y detalles precisos.",
     },
   ],
 
