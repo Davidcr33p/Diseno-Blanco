@@ -20,7 +20,6 @@
   };
 
   const state = {
-    activeCategory: "Todos",
     lightboxIndex: 0,
   };
 
@@ -32,7 +31,6 @@
     renderAbout();
     renderStats();
     renderServices();
-    renderFilters();
     renderGallery();
     renderFeatured();
     renderContact();
@@ -100,36 +98,14 @@
     document.getElementById("services-list").innerHTML = markup;
   }
 
-  function renderFilters() {
-    const container = document.getElementById("filters");
-    container.innerHTML = SITE_DATA.categories
-      .map(
-        (cat, i) => `
-        <button class="filter-btn${i === 0 ? " is-active" : ""}" data-category="${cat}" type="button">
-          ${cat}
-        </button>`
-      )
-      .join("");
-
-    container.addEventListener("click", (e) => {
-      const btn = e.target.closest(".filter-btn");
-      if (!btn) return;
-      state.activeCategory = btn.dataset.category;
-      container
-        .querySelectorAll(".filter-btn")
-        .forEach((el) => el.classList.toggle("is-active", el === btn));
-      applyFilter();
-    });
-  }
-
   function renderGallery() {
     const container = document.getElementById("masonry");
     container.innerHTML = SITE_DATA.projects
       .map((p, i) => {
         const aspect = p.size === "tall" ? "3 / 4" : p.size === "wide" ? "4 / 3" : "1 / 1";
         return `
-        <figure class="masonry-item" data-category="${p.category}" data-index="${i}" data-size="${p.size || "square"}" tabindex="0" role="button" aria-label="Ver proyecto ${p.title}">
-          <img src="${resolveAsset(p.image)}" alt="${p.title}, ${p.category} en ${p.location}" style="aspect-ratio:${aspect}; object-fit:cover;" loading="lazy" />
+        <figure class="masonry-item" data-index="${i}" tabindex="0" role="button" aria-label="Ver proyecto ${i + 1}">
+          <img src="${resolveAsset(p.image)}" alt="Proyecto de Diseño Blanco" style="aspect-ratio:${aspect}; object-fit:cover;" loading="lazy" />
         </figure>`;
       })
       .join("");
@@ -146,14 +122,6 @@
       if (!item) return;
       e.preventDefault();
       openLightbox(Number(item.dataset.index));
-    });
-  }
-
-  function applyFilter() {
-    const items = document.querySelectorAll(".masonry-item");
-    items.forEach((item) => {
-      const matches = state.activeCategory === "Todos" || item.dataset.category === state.activeCategory;
-      item.classList.toggle("is-hidden", !matches);
     });
   }
 
@@ -304,10 +272,6 @@
     const project = SITE_DATA.projects[state.lightboxIndex];
     const img = document.getElementById("lightbox-image");
     img.src = resolveAsset(project.image);
-    img.alt = `${project.title}, ${project.category} en ${project.location}`;
-    document.getElementById("lightbox-caption").innerHTML = `
-      <strong>${project.title}</strong>
-      ${project.category}, ${project.location} - ${project.year}
-    `;
+    img.alt = "Proyecto de Diseño Blanco";
   }
 })();
