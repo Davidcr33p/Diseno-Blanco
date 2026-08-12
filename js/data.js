@@ -34,26 +34,44 @@ const SITE_DATA = {
     { value: "40+", label: "ciudades con proyectos realizados" },
   ],
 
+  servicesSection: {
+    eyebrow: "Qué hacemos",
+    title: "Del concepto a la realidad.",
+    subtitle: "Diseñamos, desarrollamos y construimos espacios con identidad.",
+    intro:
+      "Integramos arquitectura, interiorismo y construcción para desarrollar proyectos funcionales, sofisticados y atemporales, cuidando cada etapa del proceso y cada detalle de su ejecución.",
+  },
+
   services: [
     {
-      title: "Arquitectura residencial",
+      title: "Arquitectura y Diseño",
       description:
-        "Diseño y construcción de casas y desarrollos habitacionales, acompañando el proyecto desde el concepto hasta la obra terminada.",
-    },
-    {
-      title: "Arquitectura comercial",
-      description:
-        "Diseño y construcción de oficinas, retail y espacios de trabajo, pensados para la marca y el flujo de las personas.",
+        "Desarrollamos proyectos arquitectónicos desde la conceptualización hasta el proyecto ejecutivo, creando soluciones que equilibran funcionalidad, estética y contexto.",
     },
     {
       title: "Interiorismo",
       description:
-        "Definición de materiales, mobiliario e iluminación para dar continuidad al proyecto arquitectónico.",
+        "Diseñamos interiores de manera integral, definiendo materiales, iluminación, mobiliario, acabados y cada elemento que da carácter y personalidad al espacio.",
     },
     {
-      title: "Asesoría de Diseño Interior",
+      title: "Construcción y Remodelación",
       description:
-        "Las asesorías de diseño interior se centran en adaptar tu espacio actual para aprovecharlo al máximo, optimizando lo que ya tienes, con recomendaciones claras y detalles precisos.",
+        "Llevamos las ideas a la realidad mediante la ejecución de obra nueva, remodelaciones y adecuaciones, con una gestión enfocada en calidad, precisión y cumplimiento.",
+    },
+    {
+      title: "Arquitectura Comercial y Corporativa",
+      description:
+        "Creamos espacios comerciales, corporativos y de trabajo que integran identidad de marca, funcionalidad y experiencia, respondiendo a las necesidades específicas de cada proyecto.",
+    },
+    {
+      title: "Arquitectura Hospitalaria",
+      description:
+        "Diseñamos y transformamos espacios para el sector salud, integrando criterios arquitectónicos, técnicos y operativos para responder a las exigencias de cada institución.",
+    },
+    {
+      title: "Dirección y Gestión de Obra",
+      description:
+        "Coordinamos integralmente cada proyecto, supervisando procesos, especialidades, contratistas y proveedores para garantizar el cumplimiento de tiempos, costos, calidad y especificaciones.",
     },
   ],
 

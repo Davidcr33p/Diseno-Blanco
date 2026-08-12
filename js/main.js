@@ -83,6 +83,12 @@
   }
 
   function renderServices() {
+    const s = SITE_DATA.servicesSection;
+    document.getElementById("services-eyebrow").textContent = s.eyebrow;
+    document.getElementById("services-title").textContent = s.title;
+    document.getElementById("services-subtitle").textContent = s.subtitle;
+    document.getElementById("services-intro").textContent = s.intro;
+
     const markup = SITE_DATA.services
       .map(
         (s, i) => `
