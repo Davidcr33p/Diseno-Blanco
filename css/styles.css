@@ -320,8 +320,8 @@ p { color: var(--ink-soft); max-width: 65ch; }
   margin-bottom: 1.75rem;
 }
 .hero-philosophy {
-  font-family: "Brandon Grotesque Black", var(--font-display);
-  font-weight: 900;
+  font-family: "Brandon Grotesque Regular", var(--font-display);
+  font-weight: 400;
   font-size: 1rem;
   line-height: 1.7;
   color: var(--ink-soft);
