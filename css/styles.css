@@ -594,7 +594,7 @@ p { color: var(--ink-soft); max-width: 65ch; }
 }
 .contact-logo {
   display: block;
-  height: 48px;
+  height: 64px;
   width: auto;
   align-self: center;
   margin-top: auto;
