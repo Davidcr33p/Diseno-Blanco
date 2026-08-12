@@ -549,7 +549,7 @@ p { color: var(--ink-soft); max-width: 65ch; }
 .contact-watermark {
   position: absolute;
   top: 50%;
-  right: -6%;
+  right: 3%;
   transform: translateY(-50%);
   width: min(48%, 620px);
   opacity: 0.1;
@@ -577,6 +577,12 @@ p { color: var(--ink-soft); max-width: 65ch; }
   color: var(--accent-ink);
   font-size: clamp(2.75rem, 6vw, 5rem);
   margin-bottom: 1rem;
+}
+.contact-logo {
+  display: block;
+  height: 32px;
+  width: auto;
+  margin-bottom: 1.5rem;
 }
 #contact-cta-text {
   font-family: "Brandon Grotesque Bold", var(--font-body);
