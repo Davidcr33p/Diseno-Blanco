@@ -24,7 +24,7 @@ const SITE_DATA = {
     aboutTitle: "Nosotros",
     aboutText:
       "Somos un despacho de arquitectos con más de 10 años de experiencia, especializados en diseño de interiores, planificación, construcción y proyectos arquitectónicos. Nuestra misión es crear espacios armoniosos y a medida, adaptados a las necesidades y estilo de vida de cada cliente. Ofrecemos una asesoría integral, abarcando desde la distribución, acabados y mobiliario, hasta planes de ampliación, obra civil y proyectos ejecutivos. Nos comprometemos a ofrecer soluciones a la medida, con un enfoque innovador y un alto estándar de calidad.",
-    aboutImage: "assets/images/proyecto-vestidor.jpg",
+    aboutImage: "assets/images/imagen-nosotros.jpg",
   },
 
   stats: [
