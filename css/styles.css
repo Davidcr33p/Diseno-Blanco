@@ -201,17 +201,7 @@ p { color: var(--ink-soft); max-width: 65ch; }
   gap: 1.5rem;
 }
 
-.brand { display: flex; align-items: center; gap: 0.75rem; }
-.brand-badge {
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-.brand-badge img {
-  height: 33px;
-  width: auto;
-  display: block;
-}
+.brand { display: flex; align-items: center; }
 .brand-logo {
   display: block;
   height: 34px;
@@ -289,12 +279,9 @@ p { color: var(--ink-soft); max-width: 65ch; }
   .site-nav { display: none; }
   .header-templates-link { display: none; }
   .nav-toggle { display: grid; }
-  .brand-badge img { height: 20px; }
   .brand-logo { height: 20px; }
-  .brand { gap: 0.5rem; }
 }
 @media (max-width: 360px) {
-  .brand-badge img { height: 17px; }
   .brand-logo { height: 17px; }
 }
 @media (min-width: 768px) {
