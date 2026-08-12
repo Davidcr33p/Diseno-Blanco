@@ -142,6 +142,7 @@ const SITE_DATA = {
 
   nav: [
     { label: "Estudio", href: "#estudio" },
+    { label: "Servicios", href: "#servicios" },
     { label: "Proyectos", href: "#proyectos" },
     { label: "Contacto", href: "#contacto" },
   ],
